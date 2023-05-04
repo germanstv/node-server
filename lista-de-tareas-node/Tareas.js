@@ -42,7 +42,7 @@ function iniciarPrograma() {
       opcion = opcion.trim().toLowerCase();
 
       switch (opcion) {
-        case "1":
+        case "0":
           console.log("-- Añadir tarea --");
           readline.question(
             "coloque el indicador de la tarea: ",
@@ -59,7 +59,7 @@ function iniciarPrograma() {
           );
 
           break;
-        case "2":
+        case "1":
           console.log("-- eliminar tarea --");
           readline.question(
             "coloque el indicador de la tarea: ",
@@ -71,7 +71,7 @@ function iniciarPrograma() {
             }
           );
           break;
-        case "3":
+        case "2":
           console.log("-- completar tarea --");
           readline.question(
             "coloque el indicador de la tarea: ",
@@ -83,7 +83,7 @@ function iniciarPrograma() {
             }
           );
           break;
-        case "4":
+        case "3":
           readline.close();
           break;
         default:
